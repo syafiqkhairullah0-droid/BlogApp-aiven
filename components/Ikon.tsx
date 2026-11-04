@@ -49,15 +49,6 @@ export function IkonSiswa(props: IkonProps) {
   );
 }
 
-export function IkonPanduan(props: IkonProps) {
-  return (
-    <Ikon {...props}>
-      <path d="M4 5.2A1.8 1.8 0 0 1 5.8 3.4H11v16.4H5.8A1.8 1.8 0 0 1 4 18z" />
-      <path d="M20 5.2a1.8 1.8 0 0 0-1.8-1.8H13v16.4h5.2A1.8 1.8 0 0 0 20 18z" />
-    </Ikon>
-  );
-}
-
 export function IkonTambah(props: IkonProps) {
   return (
     <Ikon {...props}>

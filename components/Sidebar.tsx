@@ -2,12 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { IkonDasbor, IkonPanduan, IkonSiswa } from './Ikon';
+import { IkonDasbor, IkonSiswa } from './Ikon';
 
 const MENU = [
   { href: '/', label: 'Dasbor', Ikon: IkonDasbor, tepat: true },
   { href: '/siswa', label: 'Data Siswa', Ikon: IkonSiswa, tepat: false },
-  { href: '/panduan', label: 'Panduan', Ikon: IkonPanduan, tepat: false },
 ];
 
 export function Sidebar() {
